@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kronos.TestTask.AzureFunctions", "..\KronosAzureFunctions\Kronos.TestTask.AzureFunctions\Kronos.TestTask.AzureFunctions.csproj", "{27FD1377-C1EB-4FEB-8609-8A3AD6C86565}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kronos.TestTask.businessLayer", "..\KronosBusinesslayer\Kronos.TestTask.businessLayer\Kronos.TestTask.businessLayer.csproj", "{16A0AD37-F599-431D-88CF-A953CA860DC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kronos.TestTask.WebApi", "..\KronosTestWebApi\Kronos.TestTask.WebApi\Kronos.TestTask.WebApi.csproj", "{E18F4784-C274-4F17-A24A-24AF4ACF4470}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27FD1377-C1EB-4FEB-8609-8A3AD6C86565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27FD1377-C1EB-4FEB-8609-8A3AD6C86565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27FD1377-C1EB-4FEB-8609-8A3AD6C86565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27FD1377-C1EB-4FEB-8609-8A3AD6C86565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16A0AD37-F599-431D-88CF-A953CA860DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A0AD37-F599-431D-88CF-A953CA860DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A0AD37-F599-431D-88CF-A953CA860DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A0AD37-F599-431D-88CF-A953CA860DC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E18F4784-C274-4F17-A24A-24AF4ACF4470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E18F4784-C274-4F17-A24A-24AF4ACF4470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E18F4784-C274-4F17-A24A-24AF4ACF4470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E18F4784-C274-4F17-A24A-24AF4ACF4470}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A9A0CE0-8337-4823-A9D8-B11685C7B143}
+	EndGlobalSection
+EndGlobal
