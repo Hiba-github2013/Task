@@ -1,4 +1,4 @@
-﻿namespace Kronos.TestTask.businessLayer
+﻿namespace Kronos.TestTask.core
 {
     public class Awteam
     {
@@ -6,7 +6,6 @@
         public string name { get; set; }
         public string delegation { get; set; }
     }
-
 
 
 }

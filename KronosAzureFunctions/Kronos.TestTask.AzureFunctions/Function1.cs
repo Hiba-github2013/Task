@@ -10,7 +10,7 @@ using Newtonsoft.Json;
 using System.Collections.Generic;
 
 namespace Kronos.TestTask.AzureFunctions;
-using Kronos.TestTask.businessLayer;
+using Kronos.TestTask.core;
 public static class Function1
 {
     [FunctionName("Function1")]

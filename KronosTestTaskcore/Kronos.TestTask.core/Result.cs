@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Kronos.TestTask.businessLayer
+namespace Kronos.TestTask.core
 {
     public class Result
     {

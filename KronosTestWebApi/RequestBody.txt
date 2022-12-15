@@ -1,0 +1,150 @@
+{
+  "count": 5,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 17840,
+      "gamename": "",
+      "round": {
+        "id": 4747,
+        "name": "Preliminaries",
+        "roundnumber": 0,
+        "elimround": false
+      },
+      "pool": null,
+      "hmteam": {
+        "id": 100019,
+        "name": "SO Australia",
+        "delegation": "SO Australia"
+      },
+      "awteam": {
+        "id": 100020,
+        "name": "SO Cote D'Ivoire",
+        "delegation": "SO Cote D'Ivoire"
+      },
+      "hmscore": 2,
+      "awscore": 0,
+      "gamedate": "2023-06-20T09:00:00",
+      "location": 563,
+      "competition": 102991,
+      "gamedateend": "2023-06-20T10:00:00",
+      "elimformatgame": null,
+      "status": "Official finished"
+    },
+    {
+      "id": 17841,
+      "gamename": "",
+      "round": {
+        "id": 4747,
+        "name": "Preliminaries",
+        "roundnumber": 0,
+        "elimround": false
+      },
+      "pool": null,
+      "hmteam": {
+        "id": 100019,
+        "name": "SO Australia",
+        "delegation": "SO Australia"
+      },
+      "awteam": {
+        "id": 100021,
+        "name": "SO France",
+        "delegation": "SO France"
+      },
+      "hmscore": 2,
+      "awscore": 0,
+      "gamedate": "2023-06-20T10:00:00",
+      "location": 563,
+      "competition": 102991,
+      "gamedateend": "2023-06-20T11:00:00",
+      "elimformatgame": null,
+      "status": "Official finished"
+    },
+    {
+      "id": 17842,
+      "gamename": "",
+      "round": {
+        "id": 4747,
+        "name": "Preliminaries",
+        "roundnumber": 0,
+        "elimround": false
+      },
+      "pool": null,
+      "hmteam": {
+        "id": 100020,
+        "name": "SO Cote D'Ivoire",
+        "delegation": "SO Cote D'Ivoire"
+      },
+      "awteam": {
+        "id": 100021,
+        "name": "SO France",
+        "delegation": "SO France"
+      },
+      "hmscore": 2,
+      "awscore": 0,
+      "gamedate": "2023-06-20T11:00:00",
+      "location": 563,
+      "competition": 102991,
+      "gamedateend": "2023-06-20T12:00:00",
+      "elimformatgame": null,
+      "status": "Official finished"
+    },
+    {
+      "id": 17849,
+      "gamename": "",
+      "round": {
+        "id": 4750,
+        "name": "Finals",
+        "roundnumber": 100,
+        "elimround": true
+      },
+      "pool": null,
+      "hmteam": {
+        "name": "Ladder pos 3"
+      },
+      "awteam": {
+        "name": "Ladder pos 0"
+      },
+      "hmscore": 0,
+      "awscore": 0,
+      "gamedate": "2023-06-21T00:00:00",
+      "location": 0,
+      "competition": 102991,
+      "gamedateend": "2023-06-21T01:00:00",
+      "elimformatgame": {
+        "id": 4058,
+        "name": "Bye"
+      },
+      "status": ""
+    },
+    {
+      "id": 17848,
+      "gamename": "",
+      "round": {
+        "id": 4750,
+        "name": "Finals",
+        "roundnumber": 100,
+        "elimround": true
+      },
+      "pool": null,
+      "hmteam": {
+        "name": "Ladder pos 1"
+      },
+      "awteam": {
+        "name": "Ladder pos 2"
+      },
+      "hmscore": 0,
+      "awscore": 0,
+      "gamedate": "2023-06-21T09:00:00",
+      "location": 564,
+      "competition": 102991,
+      "gamedateend": "2023-06-21T10:00:00",
+      "elimformatgame": {
+        "id": 4059,
+        "name": "Final"
+      },
+      "status": ""
+    }
+  ]
+}

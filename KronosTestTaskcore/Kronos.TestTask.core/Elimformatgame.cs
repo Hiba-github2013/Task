@@ -1,4 +1,4 @@
-﻿namespace Kronos.TestTask.businessLayer
+﻿namespace Kronos.TestTask.core
 {
     public class Elimformatgame
     {

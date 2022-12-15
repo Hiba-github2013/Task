@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject - Copy\\KronosBusinesslayer\\Kronos.TestTask.businessLayer\\Kronos.TestTask.businessLayer.csproj": {}
+    "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject - Copy - Copy\\KronosBusinesslayer\\Kronos.TestTask.businessLayer\\Kronos.TestTask.businessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject - Copy\\KronosBusinesslayer\\Kronos.TestTask.businessLayer\\Kronos.TestTask.businessLayer.csproj": {
+    "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject - Copy - Copy\\KronosBusinesslayer\\Kronos.TestTask.businessLayer\\Kronos.TestTask.businessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject - Copy\\KronosBusinesslayer\\Kronos.TestTask.businessLayer\\Kronos.TestTask.businessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject - Copy - Copy\\KronosBusinesslayer\\Kronos.TestTask.businessLayer\\Kronos.TestTask.businessLayer.csproj",
         "projectName": "Kronos.TestTask.businessLayer",
-        "projectPath": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject - Copy\\KronosBusinesslayer\\Kronos.TestTask.businessLayer\\Kronos.TestTask.businessLayer.csproj",
+        "projectPath": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject - Copy - Copy\\KronosBusinesslayer\\Kronos.TestTask.businessLayer\\Kronos.TestTask.businessLayer.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject - Copy\\KronosBusinesslayer\\Kronos.TestTask.businessLayer\\obj\\",
+        "outputPath": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject - Copy - Copy\\KronosBusinesslayer\\Kronos.TestTask.businessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
