@@ -16,3 +16,9 @@ C:\Users\Hp\Desktop\KronosTask\KronosProject - Copy - Copy\KronosTestTaskcore\Kr
 C:\Users\Hp\Desktop\KronosTask\KronosProject - Copy - Copy\KronosTestTaskcore\Kronos.TestTask.core\obj\Debug\Kronos.TestTask.core.csproj.CoreCompileInputs.cache
 C:\Users\Hp\Desktop\KronosTask\KronosProject - Copy - Copy\KronosTestTaskcore\Kronos.TestTask.core\obj\Debug\Kronos.TestTask.core.dll
 C:\Users\Hp\Desktop\KronosTask\KronosProject - Copy - Copy\KronosTestTaskcore\Kronos.TestTask.core\obj\Debug\Kronos.TestTask.core.pdb
+C:\Users\Hp\Desktop\KronosTask\KronosProject\KronosTestTaskcore\Kronos.TestTask.core\bin\Debug\Kronos.TestTask.core.dll
+C:\Users\Hp\Desktop\KronosTask\KronosProject\KronosTestTaskcore\Kronos.TestTask.core\bin\Debug\Kronos.TestTask.core.pdb
+C:\Users\Hp\Desktop\KronosTask\KronosProject\KronosTestTaskcore\Kronos.TestTask.core\obj\Debug\Kronos.TestTask.core.csproj.AssemblyReference.cache
+C:\Users\Hp\Desktop\KronosTask\KronosProject\KronosTestTaskcore\Kronos.TestTask.core\obj\Debug\Kronos.TestTask.core.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\KronosTask\KronosProject\KronosTestTaskcore\Kronos.TestTask.core\obj\Debug\Kronos.TestTask.core.dll
+C:\Users\Hp\Desktop\KronosTask\KronosProject\KronosTestTaskcore\Kronos.TestTask.core\obj\Debug\Kronos.TestTask.core.pdb

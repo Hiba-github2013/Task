@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ImFL1gU0hpxLlXPSRbyG4YXIK6eQsDiw7zpvMvNgKFZTk9qjbGidnfBCSU9bI9zlyPqbm4ANiWwSHt5B5jJh6Q==",
+  "dgSpecHash": "JU+g0zeVOyiDMKudQn+HWHPKSUWfB3Ax9l8ImzTkHCYSV2Me9qUZuBIGIZPqbYq6rkpgTzM7Spnwob351FMcxQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject - Copy - Copy\\KronosTestWebApi\\Kronos.TestTask.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject\\KronosTestWebApi\\Kronos.TestTask.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hp\\.nuget\\packages\\aspose.pdf\\22.11.0\\aspose.pdf.22.11.0.nupkg.sha512",
     "C:\\Users\\Hp\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

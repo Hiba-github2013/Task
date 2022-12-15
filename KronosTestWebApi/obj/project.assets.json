@@ -3786,11 +3786,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject - Copy - Copy\\KronosTestWebApi\\Kronos.TestTask.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject\\KronosTestWebApi\\Kronos.TestTask.WebApi.csproj",
       "projectName": "Kronos.TestTask.WebApi",
-      "projectPath": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject - Copy - Copy\\KronosTestWebApi\\Kronos.TestTask.WebApi.csproj",
+      "projectPath": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject\\KronosTestWebApi\\Kronos.TestTask.WebApi.csproj",
       "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject - Copy - Copy\\KronosTestWebApi\\obj\\",
+      "outputPath": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject\\KronosTestWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3807,8 +3807,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject - Copy - Copy\\KronosTestTaskcore\\Kronos.TestTask.core\\Kronos.TestTask.core.csproj": {
-              "projectPath": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject - Copy - Copy\\KronosTestTaskcore\\Kronos.TestTask.core\\Kronos.TestTask.core.csproj"
+            "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject\\KronosTestTaskcore\\Kronos.TestTask.core\\Kronos.TestTask.core.csproj": {
+              "projectPath": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject\\KronosTestTaskcore\\Kronos.TestTask.core\\Kronos.TestTask.core.csproj"
             }
           }
         }

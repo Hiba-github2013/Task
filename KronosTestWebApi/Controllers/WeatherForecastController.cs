@@ -25,6 +25,10 @@ using System.Text;
 using Aspose.Pdf;
 using Aspose.Pdf.Operators;
 using Aspose.Pdf.Forms;
+using System.Globalization;
+using Microsoft.AspNetCore.Mvc.Formatters;
+using System.Linq.Expressions;
+
 namespace WebAPI1.Controllers
 {
     [ApiController]
@@ -54,13 +58,30 @@ namespace WebAPI1.Controllers
             {
                 Result R1 = R[i];
                 PdfResult D1 = new PdfResult();
-                D1.gamedateend = "0";// (R1.gamedateend-R1.gamedate).ToString;
-                D1.gamedate = R1.gamedate;
-               // D1.id = R1.id;
-              Hmteam hmteam1 = new Hmteam();
+                D1.gamedate = R1.gamedate.ToShortDateString();
+                     Hmteam hmteam1 = new Hmteam();
             hmteam1.id = R1.hmteam.id; hmteam1.name = R1.hmteam.name;
             hmteam1.delegation= R1.hmteam.delegation;
-                D1.Time = "9:00";
+                //Calcule Start Time
+                int H = R1.gamedate.Hour;
+                int Min = R1.gamedate.Minute;
+                string HH = H.ToString();
+                string Minn=Min.ToString();
+                if (H == 0) { HH = "00"; }
+                if (H< 10) { HH = "0"+ H; }
+                if (Min == 0) { Minn = "00"; }
+                if (Min < 10) { Minn = "0" + Min; }
+                D1.Time = HH + ":" + Minn;
+                //Calcule End Time
+                  H = R1.gamedateend.Hour;
+                  Min = R1.gamedateend.Minute;
+                  HH = H.ToString();
+                  Minn = Min.ToString();
+                if (H == 0) { HH = "00"; }
+                if (H < 10) { HH = "0" + H; }
+                if (Min == 0) { Minn = "00"; }
+                if (Min < 10) { Minn = "0" + Min; }
+                D1.gamedateend = HH + ":" + Minn;
                 D1.location = R1.location;
             Awteam awteam1 = new Awteam();
                 awteam1.id = R1.awteam.id; awteam1.name = R1.awteam.name;
@@ -72,25 +93,31 @@ namespace WebAPI1.Controllers
             }
 
                     
-
-            Aspose.Pdf.License license = new Aspose.Pdf.License();
-
+ 
             string dataDir = "";
 
             Aspose.Pdf.Document pdfDocument = new Aspose.Pdf.Document();
-            pdfDocument.Pages.Add();
+          Aspose.Pdf.Page p=   pdfDocument.Pages.Add(); p.SetPageSize(1188, 1188);
 
             // Initializes a new instance of the Table
             Aspose.Pdf.Table table = new Aspose.Pdf.Table
             {
-                // Set the table border color as LightGray
-                Border = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Color.Black),
-                // Set the border for table cells
-                DefaultCellBorder = new Aspose.Pdf.BorderInfo(Aspose.Pdf.BorderSide.All, .5f, Color.Black)
-            };
+                  };
+             
+
+            //set the column widths of the table
+
+            table.ColumnWidths = "100 100 100 100 100 100 150 100 100";
            
+
+
+
+            //Set the font name to "Co
+
             Aspose.Pdf.Row row1 = table.Rows.Add();
             row1.BackgroundColor = Color.Orange;
+            row1.MinRowHeight = 30;
+
             // Add table cells
             row1.Cells.Add("Name");
             row1.Cells.Add("Pool");
@@ -106,7 +133,8 @@ namespace WebAPI1.Controllers
                 PdfResult R1 = DataList[i];
 
                 Aspose.Pdf.Row row2 = table.Rows.Add();
-             
+                row2.MinRowHeight = 30;
+
                 if (i % 2 == 0) {  row2.BackgroundColor = Color.White;
                }
                 if (i % 2 == 1)
@@ -128,11 +156,9 @@ namespace WebAPI1.Controllers
                 row2.Cells.Add(R1.hmteam.name);
                 
                 row2.Cells.Add("   VS   ");
-                 Aspose.Pdf.Cell c1 = row2.Cells[3];
-                c1.Border = null;
-               row2.Cells.Add(R1.awteam.name);
+                 row2.Cells.Add(R1.awteam.name);
                 row2.Cells.Add(R1.location.ToString());
-                row2.Cells.Add(R1.gamedate.Date.ToString());
+                row2.Cells.Add(R1.gamedate);
                 row2.Cells.Add(R1.Time);
                 row2.Cells.Add(R1.gamedateend);
 
@@ -160,35 +186,5 @@ namespace WebAPI1.Controllers
 
 
     }
-    //public class DocumentGenerationService : IDocumentGenerationService
-    //{
-    //    private string _licence;
-    //    public DocumentGenerationService(string licence)
-    //    {
-    //        _licence = licence;
-    //    }
-    //    public async Task<byte[]> GenerateDocument(byte[] bytes, ContentType documentType, GetDocumentModel document)
-    //    {
-    //        var inputMemoryStream = new MemoryStream(bytes);
-    //        Aspose.Pdf.License license = new Aspose.Pdf.License();
-
-    //        byte[] byteArray = Encoding.UTF8.GetBytes(_licence);
-    //        using (var stream = new MemoryStream(byteArray))
-    //        {
-    //            license.SetLicense(stream);
-    //        }
-    //        var PDF = new Aspose.Pdf.Document(inputMemoryStream);
-    //         var dataset = Utilities.FunctionUtilities.ConvertJsonToDataset(JsonConvert.SerializeObject(document.PlaceholderValues));
-    //        PDF.MailMerge.ExecuteWithRegions(dataset);
-    //        var outputMemoryStream = new MemoryStream();
-
-    //        PDF.Save(outputMemoryStream, SaveFormat.Pdf);
-            
-            
-    //        byte[] buffer = new byte[0];
-
-    //        buffer = outputMemoryStream.ToArray();
-    //        return buffer;
-    //    }
-    //}
+    
     }
