@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosTestWebApi\\Kronos.TestTask.WebApi\\Kronos.TestTask.WebApi.csproj": {}
+    "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject - Copy\\KronosTestWebApi\\Kronos.TestTask.WebApi\\Kronos.TestTask.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosTestWebApi\\Kronos.TestTask.WebApi\\Kronos.TestTask.WebApi.csproj": {
+    "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject - Copy\\KronosTestWebApi\\Kronos.TestTask.WebApi\\Kronos.TestTask.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosTestWebApi\\Kronos.TestTask.WebApi\\Kronos.TestTask.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject - Copy\\KronosTestWebApi\\Kronos.TestTask.WebApi\\Kronos.TestTask.WebApi.csproj",
         "projectName": "Kronos.TestTask.WebApi",
-        "projectPath": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosTestWebApi\\Kronos.TestTask.WebApi\\Kronos.TestTask.WebApi.csproj",
+        "projectPath": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject - Copy\\KronosTestWebApi\\Kronos.TestTask.WebApi\\Kronos.TestTask.WebApi.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosTestWebApi\\Kronos.TestTask.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject - Copy\\KronosTestWebApi\\Kronos.TestTask.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -50,12 +50,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.31, 3.1.31]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

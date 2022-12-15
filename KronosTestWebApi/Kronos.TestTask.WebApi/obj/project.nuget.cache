@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EVKzFbib2gGzm+EzBx8UGM0P9zfIHd76opwPftBxAfssdZz988qOeWliWd9cnhkWTUvkdrAYecZ4HLpaSgnYJw==",
+  "dgSpecHash": "3pvD3HVKvA48Sxog/5YEFgjngd5Tg7PfaADChxdpqHDEyVWMTFsWtcroHiBJcpEKhRzHZvw2s+lY68KP9BTkmA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosTestWebApi\\Kronos.TestTask.WebApi\\Kronos.TestTask.WebApi.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Hp\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.31\\microsoft.netcore.app.host.win-x64.3.1.31.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject - Copy\\KronosTestWebApi\\Kronos.TestTask.WebApi\\Kronos.TestTask.WebApi.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
