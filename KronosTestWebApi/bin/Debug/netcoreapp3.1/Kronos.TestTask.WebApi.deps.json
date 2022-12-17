@@ -32,7 +32,8 @@
       "Kronos.TestTask.WebApi/1.0.0": {
         "dependencies": {
           "Aspose.PDF": "22.11.0",
-          "Kronos.TestTask.core": "1.0.0",
+          "Kronos.TestTask.Core": "1.0.0",
+          "Kronos.TestTask.businessLayer": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -914,7 +915,18 @@
           "System.Xml.ReaderWriter": "4.0.11"
         }
       },
-      "Kronos.TestTask.core/1.0.0": {
+      "Kronos.TestTask.businessLayer/1.0.0": {
+        "dependencies": {
+          "Kronos.TestTask.Core": "1.0.0"
+        },
+        "runtime": {
+          "Kronos.TestTask.businessLayer.dll": {}
+        },
+        "compile": {
+          "Kronos.TestTask.businessLayer.dll": {}
+        }
+      },
+      "Kronos.TestTask.Core/1.0.0": {
         "runtime": {
           "Kronos.TestTask.core.dll": {}
         },
@@ -2995,7 +3007,12 @@
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
     },
-    "Kronos.TestTask.core/1.0.0": {
+    "Kronos.TestTask.businessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Kronos.TestTask.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

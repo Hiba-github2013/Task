@@ -1,16 +1,16 @@
 ﻿using System;
 
-namespace Kronos.TestTask.core
+namespace Kronos.TestTask.Core
 {
     public class PdfResult
     {
-         public string gamename { get; set; }
-         public object pool { get; set; }
-        public Hmteam hmteam { get; set; }
-        public Awteam awteam { get; set; }
-        public string gamedate { get; set; }
-        public int location { get; set; }
-         public string gamedateend { get; set; }
+         public string Gamename { get; set; }
+         public object Pool { get; set; }
+        public Hmteam Hmteam { get; set; }
+        public Awteam Awteam { get; set; }
+        public string Gamedate { get; set; }
+        public int Location { get; set; }
+         public string Gamedateend { get; set; }
          public string Time { get; set; }
     }
   

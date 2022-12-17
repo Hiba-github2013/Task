@@ -1,11 +1,11 @@
-﻿namespace Kronos.TestTask.core
+﻿namespace Kronos.TestTask.Core
 {
     public class Round
     {
-        public int id { get; set; }
-        public string name { get; set; }
-        public int roundnumber { get; set; }
-        public bool elimround { get; set; }
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public int Roundnumber { get; set; }
+        public bool Elimround { get; set; }
     }
 
 

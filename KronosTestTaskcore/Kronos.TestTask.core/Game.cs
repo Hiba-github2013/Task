@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
 
-namespace Kronos.TestTask.core
+namespace Kronos.TestTask.Core
 {
 
     public class Game
     {
-        public int count { get; set; }
-        public object next { get; set; }
-        public object previous { get; set; }
-        public List<Result> results { get; set; }
+        public int Count { get; set; }
+        public object Next { get; set; }
+        public object Previous { get; set; }
+        public List<Result> Results { get; set; }
     }
 
 

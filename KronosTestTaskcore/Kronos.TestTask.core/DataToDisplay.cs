@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Kronos.TestTask.core
+namespace Kronos.TestTask.Core
 {
     public class DataToDisplay
     {
-        public int id { get; set; }
-        public DateTime gamedate { get; set; }
-        public DateTime gamedateend { get; set; }
+        public int ID { get; set; }
+        public DateTime Gamedate { get; set; }
+        public DateTime Gamedateend { get; set; }
          }
 
 

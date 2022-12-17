@@ -18,3 +18,6 @@ C:\Users\Hp\Desktop\KronosTask\KronosProject\KronosBusinesslayer\Kronos.TestTask
 C:\Users\Hp\Desktop\KronosTask\KronosProject\KronosBusinesslayer\Kronos.TestTask.businessLayer\obj\Debug\netcoreapp3.1\Kronos.TestTask.businessLayer.csproj.CoreCompileInputs.cache
 C:\Users\Hp\Desktop\KronosTask\KronosProject\KronosBusinesslayer\Kronos.TestTask.businessLayer\obj\Debug\netcoreapp3.1\Kronos.TestTask.businessLayer.dll
 C:\Users\Hp\Desktop\KronosTask\KronosProject\KronosBusinesslayer\Kronos.TestTask.businessLayer\obj\Debug\netcoreapp3.1\Kronos.TestTask.businessLayer.pdb
+C:\Users\Hp\Desktop\KronosTask\KronosProject\KronosBusinesslayer\Kronos.TestTask.businessLayer\bin\Debug\netcoreapp3.1\Kronos.TestTask.core.dll
+C:\Users\Hp\Desktop\KronosTask\KronosProject\KronosBusinesslayer\Kronos.TestTask.businessLayer\bin\Debug\netcoreapp3.1\Kronos.TestTask.core.pdb
+C:\Users\Hp\Desktop\KronosTask\KronosProject\KronosBusinesslayer\Kronos.TestTask.businessLayer\obj\Debug\netcoreapp3.1\Kronos.TestTask.businessLayer.csproj.CopyComplete

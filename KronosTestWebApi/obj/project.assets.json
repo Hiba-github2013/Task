@@ -984,13 +984,26 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "Kronos.TestTask.core/1.0.0": {
+      "Kronos.TestTask.businessLayer/1.0.0": {
         "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Kronos.TestTask.Core": "1.0.0"
+        },
         "compile": {
-          "bin/placeholder/Kronos.TestTask.core.dll": {}
+          "bin/placeholder/Kronos.TestTask.businessLayer.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Kronos.TestTask.core.dll": {}
+          "bin/placeholder/Kronos.TestTask.businessLayer.dll": {}
+        }
+      },
+      "Kronos.TestTask.Core/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Kronos.TestTask.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Kronos.TestTask.Core.dll": {}
         }
       }
     }
@@ -3768,16 +3781,22 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "Kronos.TestTask.core/1.0.0": {
+    "Kronos.TestTask.businessLayer/1.0.0": {
       "type": "project",
-      "path": "../KronosTestTaskcore/Kronos.TestTask.core/Kronos.TestTask.core.csproj",
-      "msbuildProject": "../KronosTestTaskcore/Kronos.TestTask.core/Kronos.TestTask.core.csproj"
+      "path": "../KronosBusinesslayer/Kronos.TestTask.businessLayer/Kronos.TestTask.businessLayer.csproj",
+      "msbuildProject": "../KronosBusinesslayer/Kronos.TestTask.businessLayer/Kronos.TestTask.businessLayer.csproj"
+    },
+    "Kronos.TestTask.Core/1.0.0": {
+      "type": "project",
+      "path": "../KronosTestTaskcore/Kronos.TestTask.core/Kronos.TestTask.Core.csproj",
+      "msbuildProject": "../KronosTestTaskcore/Kronos.TestTask.core/Kronos.TestTask.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Aspose.PDF >= 22.11.0",
-      "Kronos.TestTask.core >= 1.0.0"
+      "Kronos.TestTask.Core >= 1.0.0",
+      "Kronos.TestTask.businessLayer >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3807,8 +3826,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject\\KronosTestTaskcore\\Kronos.TestTask.core\\Kronos.TestTask.core.csproj": {
-              "projectPath": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject\\KronosTestTaskcore\\Kronos.TestTask.core\\Kronos.TestTask.core.csproj"
+            "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject\\KronosBusinesslayer\\Kronos.TestTask.businessLayer\\Kronos.TestTask.businessLayer.csproj": {
+              "projectPath": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject\\KronosBusinesslayer\\Kronos.TestTask.businessLayer\\Kronos.TestTask.businessLayer.csproj"
+            },
+            "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject\\KronosTestTaskcore\\Kronos.TestTask.core\\Kronos.TestTask.Core.csproj": {
+              "projectPath": "C:\\Users\\Hp\\Desktop\\KronosTask\\KronosProject\\KronosTestTaskcore\\Kronos.TestTask.core\\Kronos.TestTask.Core.csproj"
             }
           }
         }

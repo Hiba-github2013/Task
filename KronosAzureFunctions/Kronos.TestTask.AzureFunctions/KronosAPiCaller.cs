@@ -4,19 +4,18 @@ using System.Net;
 using System.Threading.Tasks;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Host;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
 namespace Kronos.TestTask.AzureFunctions
 {
-    public class Function
+    public class KronosAPiCaller
     {
-        [FunctionName("Function")]
-         public async Task Run([TimerTrigger("0 */1 * * * *")] TimerInfo myTimer, ILogger log)
+        [FunctionName("KronosAPiCaller")]
+         public async Task Run([TimerTrigger("0 */1 * * * *",RunOnStartup = true)] TimerInfo myTimer, ILogger log)
         {
             log.LogInformation($"C# Timer trigger function executed at: {DateTime.Now}");
-
-            var url = "http://localhost:7078/api/Function1";
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+    HttpWebRequest request = (HttpWebRequest)WebRequest.Create(Environment.GetEnvironmentVariable("url"));
             request.AutomaticDecompression = DecompressionMethods.GZip;
 
             using (HttpWebResponse response = (HttpWebResponse)await request.GetResponseAsync())
@@ -27,5 +26,11 @@ namespace Kronos.TestTask.AzureFunctions
                 log.LogInformation(html);
             }
         }
+
+        public String GetURlFromappSetting(IConfiguration configuration)
+        {
+            string url = configuration.GetValue<string>("url");
+            return url;
+        } 
     }
 }

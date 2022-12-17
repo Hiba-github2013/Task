@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\KronosTestTaskcore\Kronos.TestTask.core\Kronos.TestTask.Core.csproj" />
+  </ItemGroup>
+
 </Project>

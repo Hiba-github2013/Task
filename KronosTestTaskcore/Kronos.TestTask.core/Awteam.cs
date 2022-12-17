@@ -1,10 +1,10 @@
-﻿namespace Kronos.TestTask.core
+﻿namespace Kronos.TestTask.Core
 {
     public class Awteam
     {
-        public int id { get; set; }
-        public string name { get; set; }
-        public string delegation { get; set; }
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public string Delegation { get; set; }
     }
 
 

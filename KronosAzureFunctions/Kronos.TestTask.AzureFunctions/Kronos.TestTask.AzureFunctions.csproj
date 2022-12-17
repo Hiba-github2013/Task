@@ -4,10 +4,12 @@
     <AzureFunctionsVersion>v4</AzureFunctionsVersion>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.Functions.Extensions" Version="1.1.0" />
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.1.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\KronosTestTaskcore\Kronos.TestTask.core\Kronos.TestTask.core.csproj" />
+    <ProjectReference Include="..\..\KronosBusinesslayer\Kronos.TestTask.businessLayer\Kronos.TestTask.businessLayer.csproj" />
+    <ProjectReference Include="..\..\KronosTestTaskcore\Kronos.TestTask.core\Kronos.TestTask.Core.csproj" />
   </ItemGroup>
    
   <ItemGroup>

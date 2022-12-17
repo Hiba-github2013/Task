@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -13,8 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\KronosTestTaskcore\Kronos.TestTask.core\Kronos.TestTask.core.csproj" />
+    <ProjectReference Include="..\KronosBusinesslayer\Kronos.TestTask.businessLayer\Kronos.TestTask.businessLayer.csproj" />
+    <ProjectReference Include="..\KronosTestTaskcore\Kronos.TestTask.core\Kronos.TestTask.Core.csproj" />
   </ItemGroup>
+
 
 
 </Project>
